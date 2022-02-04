@@ -4,7 +4,7 @@ package countvowelconsonantdigitspacesymbol;
 
 import java.util.Scanner;
 
-public class WithoutPassingLength {
+public class Method3 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -21,22 +21,26 @@ public class WithoutPassingLength {
 		for(int i = 0; i < str.length(); ++i)
 		{
 		char ch = str.charAt(i);
-		if(ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u') {
-		++vowels;
+		if(ch >= 'a' && ch <= 'z') {
+			
+			if(ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u') {
+				vowels++;
+				}
+				else {
+				consonants++;
+				}
 		}
-		else if(ch >= 'a' && ch <= 'z') {
-		++consonants;
-		}
+
 		else if(ch >= '0' && ch <= '9')
 		{
-		++digits;
+		digits++;
 		}
-		else if (ch ==' ' )
+		else if (ch ==' ')
 		{
-		++spaces;
+		spaces++;
 		}
 		else
-		++symbols;
+		symbols++;
 		}
 
 	    System.out.println("Vowels: " + vowels);
