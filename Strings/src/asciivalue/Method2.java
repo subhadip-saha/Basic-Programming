@@ -1,3 +1,6 @@
+//Java program to Find the ASCII value of a character
+//user input
+
 package asciivalue;
 
 import java.util.Scanner;
