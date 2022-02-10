@@ -20,7 +20,7 @@ public class Method2 {
 		
 	    int ans = 1;
 	    
-	    for (int i = 0; i < p; i++) {		//or,  for (int i = 1; i <= p; i++)
+	    for (int i = 0; i < Math.abs(p); i++) {		//or,  for (int i = 1; i <= p; i++)
 	      ans = ans * n;
 	    }
 	    System.out.print(n+" raised to the power "+p+" is "+ans);
