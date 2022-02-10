@@ -4,17 +4,26 @@
 
 package powerofanumber;
 
+import java.util.Scanner;
+
 public class Method2 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-	    int n = 5, k = 3;
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Enter number ");
+		int n = sc.nextInt();
+		System.out.println("Enter power ");
+		int p = sc.nextInt();
+		
 	    int ans = 1;
-	    for (int i = 0; i < k; i++) {
+	    
+	    for (int i = 0; i < p; i++) {		//or,  for (int i = 1; i <= p; i++)
 	      ans = ans * n;
 	    }
-	    System.out.print(n+" raised to the power "+k+" is "+ans);
+	    System.out.print(n+" raised to the power "+p+" is "+ans);
 	}
 
 }
