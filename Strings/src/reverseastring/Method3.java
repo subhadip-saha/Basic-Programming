@@ -1,5 +1,6 @@
 //Reverse a String
-//using string buffer
+//using string buffer as well as string builder 
+//Both will give same o/p
 
 package reverseastring;
 
@@ -11,9 +12,15 @@ public class Method3 {
 
 		String name = "Subhadip";
 		
-		StringBuffer sb = new StringBuffer(name);
+		StringBuffer sbf = new StringBuffer(name);	
+		System.out.println(sbf.reverse());
 		
-		System.out.println(sb.reverse());
+		
+		StringBuilder sbld = new StringBuilder(name);
+		System.out.println(sbld.reverse());
+		
+		
+		
 	}
 
 }
