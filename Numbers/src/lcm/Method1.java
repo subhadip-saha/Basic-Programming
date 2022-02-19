@@ -1,3 +1,5 @@
+//Find LCM of two numbers
+
 package lcm;
 
 public class Method1 {
