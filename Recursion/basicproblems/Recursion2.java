@@ -24,3 +24,8 @@ public class Recursion2 {
 }
 
 
+/*
+iterative way
+	for(int n = 1; n < 6; n++)
+		System.out.println(n);
+*/
