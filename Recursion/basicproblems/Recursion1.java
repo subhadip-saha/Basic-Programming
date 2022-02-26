@@ -11,7 +11,7 @@ public class Recursion1 {
 		
 		System.out.println(n);	//print
 		
-		printNumbers(n-1);		//recursion
+		printNumbers(n-1);		//recursion, as it is decreasing by 1 at each step, so n-1
 	}
 	
 	public static void main(String[] args) {
@@ -22,3 +22,9 @@ public class Recursion1 {
 	} 
 
 }
+
+/*
+	iterative way
+		for(int n = 5; n > 0; n--)
+			System.out.println(n);
+*/
