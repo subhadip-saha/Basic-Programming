@@ -1,5 +1,5 @@
 // Print the sum of first n natural numbers
-//forward traverse
+// forward traverse
 
 package basicproblems;
 
