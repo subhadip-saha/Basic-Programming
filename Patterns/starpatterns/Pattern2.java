@@ -42,11 +42,11 @@ public class Pattern2 {
  */
 		//outer loop
  
-		for(int i = 1; i <= 4; i++)				//no. of rows = 4
+		for(int i = 1; i <= 4; i++)				//no. of rows = 4, you might take m = 4
 		{
 			//inner loop
 			
-			for(int j = 1; j <= 5; j++)			//no. of columns = 5
+			for(int j = 1; j <= 5; j++)			//no. of columns = 5, you might take n = 5
 			{
 				System.out.print("*" + " ");
 			}
