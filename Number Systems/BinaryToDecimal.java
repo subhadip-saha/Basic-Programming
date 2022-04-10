@@ -1,4 +1,4 @@
-//Binary to Decimal Java Program
+//Java program to convert from Binary number system into Decimal number system 
 
 package numbersystem;
 
