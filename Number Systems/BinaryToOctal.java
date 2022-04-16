@@ -37,7 +37,7 @@ public class BinaryToOctal {
 		while(temporary > 0)
 		{
 			int remainder = temporary % 8;
-			temporary /= 8;			//temp = temp / 2;
+			temporary /= 8;			//temp = temp / 8;
 			//decimalNum =decimalNum + rem;	//wrong, we have to add the remainder in reverse order
 			octalNum = remainder + octalNum; 
 		}
